@@ -1,0 +1,39 @@
+<table sqlname="sys_config">
+    <operation name="insert" >
+        <sql>
+            <![CDATA[
+            INSERT INTO sys_config(id,background_image,carousel_figure1,carousel_figure2,carousel_figure3,carousel_figure4,carousel_figure5,raw_add_time) VALUES (?,?,?,?,?,?,?,?)
+			]]>
+        </sql>
+    </operation>
+    <operation name="update" paramtype="object">
+    <sql>
+        <![CDATA[
+        UPDATE sys_config SET background_image=?,carousel_figure1=?,carousel_figure2=?,carousel_figure3=?,carousel_figure4=?,carousel_figure5=? WHERE id=?
+               ]]>
+    </sql>
+</operation>
+    <operation name="findById" >
+        <sql>
+            <![CDATA[
+        SELECT  id ,background_image ,carousel_figure1 ,carousel_figure2 ,carousel_figure3 ,carousel_figure4 ,carousel_figure5 ,raw_add_time ,raw_update_time   FROM sys_config WHERE id=?               ]]>
+        </sql>
+    </operation>
+    <operation name="findOne" >
+        <sql>
+            <![CDATA[
+        SELECT  id ,background_image ,carousel_figure1 ,carousel_figure2 ,carousel_figure3 ,carousel_figure4 ,carousel_figure5 ,raw_add_time ,raw_update_time   FROM sys_config order by id  desc            ]]>
+        </sql>
+        <sqlmap>
+            <![CDATA[
+        SELECT  id ,background_image ,carousel_figure1 ,carousel_figure2 ,carousel_figure3 ,carousel_figure4 ,carousel_figure5 ,raw_add_time ,raw_update_time   FROM sys_config order by id  desc limit   0,1;           ]]>
+        </sqlmap>
+    </operation>
+    <operation name="deleteById" >
+        <sql>
+            <![CDATA[
+        DELETE FROM sys_config WHERE id=?               ]]>
+        </sql>
+    </operation>
+
+</table>

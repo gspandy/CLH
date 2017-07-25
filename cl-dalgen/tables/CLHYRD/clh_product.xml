@@ -1,0 +1,34 @@
+<table sqlname="clh_product">
+    <operation name="insert" paramtype="object">
+        <sql>
+            <![CDATA[
+            INSERT INTO clh_product(product_id,supplier_id,supplier_name,product_name,product_number,product_status,product_unit,price1,price1_range,price2,price2_range,price3,price3_range,product_type,start_order_count,product_detail,product_start_date,product_modify_date,product_delete_date,ip_address,facade,last_view_time,view_count,small_pic_path,big_pic_path,middle_pic_path,small_pic_path1,big_pic_path1,middle_pic_path1,small_pic_path2,big_pic_path2,middle_pic_path2,small_pic_path3,big_pic_path3,middle_pic_path3,post_type,market_price,product_style,pt_tag,pt_keyWords,cost_price,weight,materail,avgscore,raw_add_time) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+              ]]>
+        </sql>
+    </operation>
+
+    <operation name="update" paramtype="object">
+        <sql>
+            <![CDATA[
+            UPDATE clh_product SET supplier_id=?,supplier_name=?,product_name=?,product_number=?,product_status=?,product_unit=?,price1=?,price1_range=?,price2=?,price2_range=?,price3=?,price3_range=?,product_type=?,start_order_count=?,product_detail=?,product_start_date=?,product_modify_date=?,product_delete_date=?,ip_address=?,facade=?,last_view_time=?,view_count=?,small_pic_path=?,big_pic_path=?,middle_pic_path=?,small_pic_path1=?,big_pic_path1=?,middle_pic_path1=?,small_pic_path2=?,big_pic_path2=?,middle_pic_path2=?,small_pic_path3=?,big_pic_path3=?,middle_pic_path3=?,post_type=?,market_price=?,product_style=?,pt_tag=?,pt_keyWords=?,cost_price=?,weight=?,materail=?,avgscore=? WHERE product_id=?
+               ]]>
+        </sql>
+    </operation>
+
+    <operation name="getDOById" paramtype="object">
+        <sql>
+            <![CDATA[
+            SELECT  product_id ,supplier_id ,supplier_name ,product_name ,product_number ,product_status ,product_unit ,price1 ,price1_range ,price2 ,price2_range ,price3 ,price3_range ,product_type ,start_order_count ,product_detail ,product_start_date ,product_modify_date ,product_delete_date ,ip_address ,facade ,last_view_time ,view_count ,small_pic_path ,big_pic_path ,middle_pic_path ,small_pic_path1 ,big_pic_path1 ,middle_pic_path1 ,small_pic_path2 ,big_pic_path2 ,middle_pic_path2 ,small_pic_path3 ,big_pic_path3 ,middle_pic_path3 ,post_type ,market_price ,product_style ,pt_tag ,pt_keyWords ,cost_price ,weight ,materail ,avgscore ,raw_add_time ,raw_update_time  FROM clh_product WHERE product_id=?
+               ]]>
+        </sql>
+    </operation>
+
+    <operation name="getAllCount" paramtype="java.lang.Long">
+        <sql>
+            <![CDATA[
+              SELECT  count(*) FROM clh_product
+               ]]>
+        </sql>
+    </operation>
+
+</table>

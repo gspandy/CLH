@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/CLH2.1.iml" filepath="$PROJECT_DIR$/.idea/CLH2.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cl-assemble/cl-assemble.iml" filepath="$PROJECT_DIR$/cl-assemble/cl-assemble.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cl-biz/cl-biz.iml" filepath="$PROJECT_DIR$/cl-biz/cl-biz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cl-config/cl-config.iml" filepath="$PROJECT_DIR$/cl-config/cl-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cl-dal/cl-dal.iml" filepath="$PROJECT_DIR$/cl-dal/cl-dal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cl-dalgen/cl-dalgen.iml" filepath="$PROJECT_DIR$/cl-dalgen/cl-dalgen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cl-domain/cl-domain.iml" filepath="$PROJECT_DIR$/cl-domain/cl-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cl-facade-wsp/cl-facade-wsp.iml" filepath="$PROJECT_DIR$/cl-facade-wsp/cl-facade-wsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cl-integration/cl-integration.iml" filepath="$PROJECT_DIR$/cl-integration/cl-integration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cl-util/cl-util.iml" filepath="$PROJECT_DIR$/cl-util/cl-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cl-web/cl-web.iml" filepath="$PROJECT_DIR$/cl-web/cl-web.iml" />
+    </modules>
+  </component>
+</project>

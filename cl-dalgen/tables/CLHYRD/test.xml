@@ -1,0 +1,10 @@
+<table sqlname="test">
+    <operation name="insert" paramtype="object">
+        <sql>
+            <![CDATA[
+            INSERT INTO test(id,name,raw_add_time) VALUES (?,?,?)
+			]]>
+        </sql>
+    </operation>
+
+</table>

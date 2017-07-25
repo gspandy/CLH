@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="microbank-assemble:war">
+    <output-path>$PROJECT_DIR$/../../trunk_20161214/microbank-assemble/target</output-path>
+    <root id="archive" name="ROOT.war">
+      <element id="artifact" artifact-name="microbank-assemble:war exploded" />
+    </root>
+  </artifact>
+</component>

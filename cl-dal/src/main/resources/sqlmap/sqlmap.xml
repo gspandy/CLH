@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMapConfig PUBLIC "-//iBATIS.com//DTD SQL Map Config 2.0//EN" "http://www.ibatis.com/dtd/sql-map-config-2.dtd">
+<sqlMapConfig>
+    <settings cacheModelsEnabled="true" enhancementEnabled="false" lazyLoadingEnabled="false" maxRequests="3000" maxSessions="3000" maxTransactions="3000" useStatementNamespaces="false"/>
+	<typeHandler javaType="com.cl.ws.base.Money" callback="com.cl.ws.base.MoneyTypeHandlerCallback"/>
+
+  <!-- ZJL-->
+
+    <sqlMap resource="sqlmap/OperationJournal-sqlmap-mapping.xml"/>
+    <sqlMap resource="sqlmap/SysConfig-sqlmap-mapping.xml"/>
+    <sqlMap resource="sqlmap/Test-sqlmap-mapping.xml"/>
+	<sqlMap resource="sqlmap/Extra-sqlmap-mapping.xml"/>
+
+</sqlMapConfig>

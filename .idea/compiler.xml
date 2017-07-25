@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cl-assemble" />
+        <module name="cl-biz" />
+        <module name="cl-config" />
+        <module name="cl-dal" />
+        <module name="cl-dalgen" />
+        <module name="cl-domain" />
+        <module name="cl-facade-wsp" />
+        <module name="cl-integration" />
+        <module name="cl-util" />
+        <module name="cl-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cl-assemble" target="1.7" />
+      <module name="cl-biz" target="1.7" />
+      <module name="cl-config" target="1.7" />
+      <module name="cl-dal" target="1.7" />
+      <module name="cl-dalgen" target="1.5" />
+      <module name="cl-domain" target="1.7" />
+      <module name="cl-facade-wsp" target="1.7" />
+      <module name="cl-integration" target="1.7" />
+      <module name="cl-util" target="1.7" />
+      <module name="cl-web" target="1.7" />
+      <module name="CLH2.1" target="1.7" />
+      <module name="microbank-assemble" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
